@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e2bfe68cc0a81647b15a1ac696d74b3, type: 3}
+  m_Name: sfx_TerrainLizard_wave
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: buffList
+      Entry: 6
+      Data: 
+    - Name: light2DPrefab
+      Entry: 6
+      Data: 
+    - Name: lightEffect
+      Entry: 6
+      Data: 
+    - Name: soundEffectClip
+      Entry: 6
+      Data: 
+  sfxName: TerrainLizard_wave
+  isUseAnimacer: 0
+  effectPrefab: {fileID: 3120073154373438201, guid: 1443f7e25e9141543a82a7f8c8a9d010, type: 3}
+  animationClip: {fileID: 0}
+  sprite: {fileID: 0}
+  spriteLayer: 0
+  isAutoEffectDuration: 1
+  effectDuration: 0.5
+  isCauseDamage: 0
+  delayTime: 0
+  targetLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  triggerBoxSize: 1
+  isAddLight2D: 0
+  isAddSoundEffect: 1
+  owner: {fileID: 0}

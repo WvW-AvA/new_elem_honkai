@@ -1,0 +1,234 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e2bfe68cc0a81647b15a1ac696d74b3, type: 3}
+  m_Name: sfx_fire_ATK1_E
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: 002051bb90001fe41a94fd2294257c4b, type: 2}
+    - {fileID: 11400000, guid: 759e45a30da9a6745b3810f85fe1a29c, type: 2}
+    - {fileID: 11400000, guid: ecade31759a2cd7408aa3e62c71e249a, type: 2}
+    - {fileID: 11400000, guid: 864871d476c9aa049b132b5f6a824040, type: 2}
+    - {fileID: 7152170320138246047, guid: 81e04ba6a75e256428163f2c11f7b84a, type: 3}
+    - {fileID: 11400000, guid: d77abd0327b64e74a8814d45d6d32bde, type: 2}
+    - {fileID: 8300000, guid: bb026e776cd32a0489032d962b630222, type: 3}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: buffList
+      Entry: 7
+      Data: 0|System.Collections.Generic.List`1[[BuffBase, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 4
+    - Name: 
+      Entry: 7
+      Data: 1|ElementDamageBuff, Assembly-CSharp
+    - Name: buffType
+      Entry: 3
+      Data: 0
+    - Name: buffName
+      Entry: 1
+      Data: sfx_fire_ATK1_E_ElementDamageBuff
+    - Name: m_duringTime
+      Entry: 4
+      Data: 0
+    - Name: element
+      Entry: 3
+      Data: 1
+    - Name: buffDamageRate
+      Entry: 4
+      Data: 0.6
+    - Name: damageBaseOn
+      Entry: 3
+      Data: 0
+    - Name: damageValue
+      Entry: 3
+      Data: 0
+    - Name: mode
+      Entry: 3
+      Data: 0
+    - Name: activeOnlyOnArea
+      Entry: 5
+      Data: false
+    - Name: times
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 2|TimeScaleBuff, Assembly-CSharp
+    - Name: buffType
+      Entry: 3
+      Data: 0
+    - Name: buffName
+      Entry: 1
+      Data: sfx_fire_ATK1_E_TimeScaleBuff
+    - Name: m_duringTime
+      Entry: 4
+      Data: 0
+    - Name: scale
+      Entry: 4
+      Data: 0
+    - Name: keepTime
+      Entry: 4
+      Data: 0.05
+    - Name: isFrameCount
+      Entry: 5
+      Data: false
+    - Name: frameCount
+      Entry: 3
+      Data: 2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 3|CameraShakeBuff, Assembly-CSharp
+    - Name: buffType
+      Entry: 3
+      Data: 0
+    - Name: buffName
+      Entry: 1
+      Data: sfx_fire_ATK1_E_CameraShakeBuff
+    - Name: m_duringTime
+      Entry: 4
+      Data: 0
+    - Name: signalAssest
+      Entry: 10
+      Data: 0
+    - Name: customForce
+      Entry: 5
+      Data: true
+    - Name: force
+      Entry: 4
+      Data: 2
+    - Name: customDirection
+      Entry: 5
+      Data: false
+    - Name: direction
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 4|HitSfxBuff, Assembly-CSharp
+    - Name: buffType
+      Entry: 3
+      Data: 0
+    - Name: buffName
+      Entry: 1
+      Data: sfx_fire_ATK1_E_HitSfxBuff
+    - Name: m_duringTime
+      Entry: 4
+      Data: 0
+    - Name: damagedSfx
+      Entry: 7
+      Data: 5|System.Collections.Generic.List`1[[SfxSO, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: resistSfx
+      Entry: 7
+      Data: 6|System.Collections.Generic.List`1[[SfxSO, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 10
+      Data: 2
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: weakSfx
+      Entry: 7
+      Data: 7|System.Collections.Generic.List`1[[SfxSO, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 10
+      Data: 3
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: sfxPositionLimit
+      Entry: 4
+      Data: 16
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: light2DPrefab
+      Entry: 10
+      Data: 4
+    - Name: lightEffect
+      Entry: 10
+      Data: 5
+    - Name: soundEffectClip
+      Entry: 10
+      Data: 6
+  sfxName: sfx_fire_ATK1_E
+  isUseAnimacer: 1
+  effectPrefab: {fileID: 0}
+  animationClip: {fileID: 11400000, guid: 0c04caaf65f4b4e4b946d80bf745552d, type: 2}
+  sprite: {fileID: 9086277300318224921, guid: e36d7ca84a5722f4094daea759ab9235, type: 3}
+  spriteLayer: 0
+  isAutoEffectDuration: 1
+  effectDuration: 0.4166667
+  isCauseDamage: 1
+  delayTime: 0
+  damageBoxKeepTime: 0.2
+  targetLayer:
+    serializedVersion: 2
+    m_Bits: 1280
+  triggerBoxSize: {x: 5, y: 3}
+  triggerBoxOffset: {x: 2, y: 0.5}
+  isAddLight2D: 1
+  isAddSoundEffect: 1

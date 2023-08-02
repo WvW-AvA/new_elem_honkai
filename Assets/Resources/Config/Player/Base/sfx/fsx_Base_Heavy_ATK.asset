@@ -1,0 +1,256 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e2bfe68cc0a81647b15a1ac696d74b3, type: 3}
+  m_Name: fsx_Base_Heavy_ATK
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: 57a22f63ebe185748ae4753a32a2c3b5, type: 2}
+    - {fileID: 11400000, guid: 3373cb82754385d4abeac8e42b23c304, type: 2}
+    - {fileID: 11400000, guid: 1060f97b31a8902448d235bda023b9ea, type: 2}
+    - {fileID: 11400000, guid: 1f81fb824442b4e4bac5c94b4271f583, type: 2}
+    - {fileID: 11400000, guid: 5376e1bd6b02aad4f9c3d76ab50b4b6d, type: 2}
+    - {fileID: 11400000, guid: 6877901dc6db2f646905663fb196ea7e, type: 2}
+    - {fileID: 11400000, guid: 8b2c820e43cfb3943833140389053cc0, type: 2}
+    - {fileID: 11400000, guid: e13f72d301a8ca24d982479cbc7b4999, type: 2}
+    - {fileID: 11400000, guid: 5b0efef138f581747af4015dae67fd8b, type: 2}
+    - {fileID: 11400000, guid: eef2aaf8e625ce044b528e652989a9ae, type: 2}
+    - {fileID: 8300000, guid: cf51919068f515443a1686f08bc1eaa8, type: 3}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: buffList
+      Entry: 7
+      Data: 0|System.Collections.Generic.List`1[[BuffBase, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 4
+    - Name: 
+      Entry: 7
+      Data: 1|ElementDamageBuff, Assembly-CSharp
+    - Name: buffType
+      Entry: 3
+      Data: 0
+    - Name: buffName
+      Entry: 1
+      Data: fsx_Base_Heavy_ATK_ElementDamageBuff
+    - Name: m_duringTime
+      Entry: 4
+      Data: 0
+    - Name: element
+      Entry: 3
+      Data: 0
+    - Name: buffDamageRate
+      Entry: 4
+      Data: 0.8
+    - Name: damageBaseOn
+      Entry: 3
+      Data: 0
+    - Name: damageValue
+      Entry: 3
+      Data: 0
+    - Name: mode
+      Entry: 3
+      Data: 0
+    - Name: activeOnlyOnArea
+      Entry: 5
+      Data: false
+    - Name: times
+      Entry: 3
+      Data: 5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 2|TimeScaleBuff, Assembly-CSharp
+    - Name: buffType
+      Entry: 3
+      Data: 0
+    - Name: buffName
+      Entry: 1
+      Data: fsx_Base_Heavy_ATK_TimeScaleBuff
+    - Name: m_duringTime
+      Entry: 4
+      Data: 0
+    - Name: scale
+      Entry: 4
+      Data: 0
+    - Name: keepTime
+      Entry: 4
+      Data: 0.05
+    - Name: isFrameCount
+      Entry: 5
+      Data: false
+    - Name: frameCount
+      Entry: 3
+      Data: 2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 3|HitSfxBuff, Assembly-CSharp
+    - Name: buffType
+      Entry: 3
+      Data: 0
+    - Name: buffName
+      Entry: 1
+      Data: fsx_Base_Heavy_ATK_HitSfxBuff
+    - Name: m_duringTime
+      Entry: 4
+      Data: 0
+    - Name: damagedSfx
+      Entry: 7
+      Data: 4|System.Collections.Generic.List`1[[SfxSO, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 10
+      Data: 2
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: resistSfx
+      Entry: 7
+      Data: 5|System.Collections.Generic.List`1[[SfxSO, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 10
+      Data: 3
+    - Name: 
+      Entry: 10
+      Data: 4
+    - Name: 
+      Entry: 10
+      Data: 5
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: weakSfx
+      Entry: 7
+      Data: 6|System.Collections.Generic.List`1[[SfxSO, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 10
+      Data: 6
+    - Name: 
+      Entry: 10
+      Data: 7
+    - Name: 
+      Entry: 10
+      Data: 8
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: sfxPositionLimit
+      Entry: 4
+      Data: 16
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 7|CameraShakeBuff, Assembly-CSharp
+    - Name: buffType
+      Entry: 3
+      Data: 0
+    - Name: buffName
+      Entry: 1
+      Data: fsx_Base_Heavy_ATK_CameraShakeBuff
+    - Name: m_duringTime
+      Entry: 4
+      Data: 0
+    - Name: signalAssest
+      Entry: 10
+      Data: 9
+    - Name: customForce
+      Entry: 5
+      Data: true
+    - Name: force
+      Entry: 4
+      Data: 1.5
+    - Name: customDirection
+      Entry: 5
+      Data: false
+    - Name: direction
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: light2DPrefab
+      Entry: 6
+      Data: 
+    - Name: lightEffect
+      Entry: 6
+      Data: 
+    - Name: soundEffectClip
+      Entry: 10
+      Data: 10
+  sfxName: fsx_Base_Heavy_ATK
+  isUseAnimacer: 1
+  effectPrefab: {fileID: 0}
+  animationClip: {fileID: 11400000, guid: eaac16aca16d9664d85ecee5d2fbcbc7, type: 2}
+  sprite: {fileID: 1373724404957040870, guid: 6cd7c29f074c7a646850a56857cc798a, type: 3}
+  spriteLayer: 0
+  isAutoEffectDuration: 1
+  effectDuration: 0.5833333
+  isCauseDamage: 1
+  delayTime: 0.2
+  damageBoxKeepTime: 0.2
+  targetLayer:
+    serializedVersion: 2
+    m_Bits: 1280
+  triggerBoxSize: {x: 12, y: 3}
+  triggerBoxOffset: {x: 0, y: 0}
+  isAddLight2D: 0
+  isAddSoundEffect: 1

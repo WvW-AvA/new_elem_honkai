@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e2bfe68cc0a81647b15a1ac696d74b3, type: 3}
+  m_Name: BurstSfxToMonster
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 8300000, guid: e90a2441fe718864fae6225e149dd78e, type: 3}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: buffList
+      Entry: 7
+      Data: 0|System.Collections.Generic.List`1[[BuffBase, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 1|ElementDamageBuff, Assembly-CSharp
+    - Name: buffType
+      Entry: 3
+      Data: 0
+    - Name: buffName
+      Entry: 1
+      Data: BurstSfxToMonster_ElementDamageBuff
+    - Name: m_duringTime
+      Entry: 4
+      Data: 0
+    - Name: element
+      Entry: 3
+      Data: 1
+    - Name: buffDamageRate
+      Entry: 4
+      Data: 2
+    - Name: damageBaseOn
+      Entry: 3
+      Data: 0
+    - Name: damageValue
+      Entry: 3
+      Data: 0
+    - Name: mode
+      Entry: 3
+      Data: 0
+    - Name: activeOnlyOnArea
+      Entry: 5
+      Data: false
+    - Name: times
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: light2DPrefab
+      Entry: 6
+      Data: 
+    - Name: lightEffect
+      Entry: 6
+      Data: 
+    - Name: soundEffectClip
+      Entry: 10
+      Data: 0
+  sfxName: BurstSfxToMonster
+  isUseAnimacer: 1
+  effectPrefab: {fileID: 0}
+  animationClip: {fileID: 11400000, guid: 975fd0aa1cadc27428f502f4a256dd16, type: 2}
+  sprite: {fileID: 2156357099664335998, guid: 9741a8e33af871a49addcf9bd2c77592, type: 3}
+  spriteLayer: 2
+  isAutoEffectDuration: 1
+  effectDuration: 0.6666666
+  isCauseDamage: 1
+  delayTime: 0
+  damageBoxKeepTime: 0.2
+  targetLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  triggerBoxSize: {x: 5.5, y: 5}
+  triggerBoxOffset: {x: 0, y: 2}
+  isAddLight2D: 0
+  isAddSoundEffect: 1

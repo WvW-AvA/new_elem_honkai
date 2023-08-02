@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ef5f188f8931fc428a950c26467fb59, type: 3}
+  m_Name: Firebone_Hide
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: b4a66768dfca80d4faa2e80fb325e74f, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: stateConfig
+      Entry: 7
+      Data: 0|HideState, Assembly-CSharp
+    - Name: triggers
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[FSMBaseTrigger_T, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 2|PlayerDistanceTrigger, Assembly-CSharp
+    - Name: targetState
+      Entry: 1
+      Data: Firebone_Appear
+    - Name: checkNearRadius
+      Entry: 4
+      Data: 0
+    - Name: checkFarRadius
+      Entry: 4
+      Data: 10
+    - Name: isReturnTrueBetweenNearAndFar
+      Entry: 5
+      Data: true
+    - Name: isRayDetect
+      Entry: 5
+      Data: true
+    - Name: startPointOffset
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: onStateEnterEvents
+      Entry: 6
+      Data: 
+    - Name: defaultAnimation
+      Entry: 10
+      Data: 0
+    - Name: defaultAnimationSoundEffect
+      Entry: 6
+      Data: 
+    - Name: faceMode
+      Entry: 3
+      Data: 0
+    - Name: isflying
+      Entry: 5
+      Data: false
+    - Name: isFlyContinueWhenStateExit
+      Entry: 5
+      Data: false
+    - Name: flyingMinHight
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: triggerList
+      Entry: 7
+      Data: 3|System.Collections.Generic.List`1[[EnemyFSMBaseTrigger, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 9
+      Data: 2
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  graph: {fileID: 0}
+  position: {x: 0, y: 0}
+  ports:
+    keys: []
+    values: []
+  StateName: Firebone_Hide

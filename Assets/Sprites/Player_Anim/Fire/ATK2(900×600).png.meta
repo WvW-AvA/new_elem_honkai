@@ -1,0 +1,747 @@
+fileFormatVersion: 2
+guid: a452d569a7a758048be3be49bfcc9207
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7918373694642739481
+    second: "ATK2(900\xD7600)_0"
+  - first:
+      213: -4471424449578117852
+    second: "ATK2(900\xD7600)_1"
+  - first:
+      213: 2303328749865117179
+    second: "ATK2(900\xD7600)_2"
+  - first:
+      213: 3078957066853665454
+    second: "ATK2(900\xD7600)_3"
+  - first:
+      213: 5861396641067674657
+    second: "ATK2(900\xD7600)_4"
+  - first:
+      213: 4494876343865282293
+    second: "ATK2(900\xD7600)_5"
+  - first:
+      213: -1618073733482699028
+    second: "ATK2(900\xD7600)_6"
+  - first:
+      213: -9125140524494842834
+    second: "ATK2(900\xD7600)_7"
+  - first:
+      213: -6407014820453889000
+    second: "ATK2(900\xD7600)_8"
+  - first:
+      213: -2937806942815161437
+    second: "ATK2(900\xD7600)_9"
+  - first:
+      213: 2423756650117079292
+    second: "ATK2(900\xD7600)_10"
+  - first:
+      213: -3980024811715252463
+    second: "ATK2(900\xD7600)_11"
+  - first:
+      213: -8299359869407288647
+    second: "ATK2(900\xD7600)_12"
+  - first:
+      213: 1430445446095594521
+    second: "ATK2(900\xD7600)_13"
+  - first:
+      213: 2203049350882258391
+    second: "ATK2(900\xD7600)_14"
+  - first:
+      213: 1179440627759905649
+    second: "ATK2(900\xD7600)_15"
+  - first:
+      213: 4286303803549434316
+    second: "ATK2(900\xD7600)_16"
+  - first:
+      213: -4972578012832589036
+    second: "ATK2(900\xD7600)_17"
+  - first:
+      213: -5364108969834276779
+    second: "ATK2(900\xD7600)_18"
+  - first:
+      213: 7495198414353242595
+    second: "ATK2(900\xD7600)_19"
+  - first:
+      213: 8275549874079170080
+    second: "ATK2(900\xD7600)_20"
+  - first:
+      213: 8158876433489106800
+    second: "ATK2(900\xD7600)_21"
+  - first:
+      213: -3067409136270107358
+    second: "ATK2(900\xD7600)_22"
+  - first:
+      213: 5042750921045270036
+    second: "ATK2(900\xD7600)_23"
+  - first:
+      213: 1687380520341728042
+    second: "ATK2(900\xD7600)_24"
+  - first:
+      213: -1702635008211788670
+    second: "ATK2(900\xD7600)_25"
+  - first:
+      213: -1936726502222167434
+    second: "ATK2(900\xD7600)_26"
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "ATK2(900\xD7600)_0"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1200
+        width: 900
+        height: 600
+      alignment: 9
+      pivot: {x: 0.4133259, y: 0.3507277}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e6a50cf3194c1290800000000000000
+      internalID: -7918373694642739481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ATK2(900\xD7600)_1"
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1200
+        width: 900
+        height: 600
+      alignment: 9
+      pivot: {x: 0.4133259, y: 0.3507277}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42556ea572f42f1c0800000000000000
+      internalID: -4471424449578117852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ATK2(900\xD7600)_2"
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1200
+        width: 900
+        height: 600
+      alignment: 9
+      pivot: {x: 0.4133259, y: 0.3507277}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf5a7a06b4117ff10800000000000000
+      internalID: 2303328749865117179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ATK2(900\xD7600)_3"
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 1200
+        width: 900
+        height: 600
+      alignment: 9
+      pivot: {x: 0.4133259, y: 0.3507277}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaacd78a327aaba20800000000000000
+      internalID: 3078957066853665454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ATK2(900\xD7600)_4"
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 1200
+        width: 900
+        height: 600
+      alignment: 9
+      pivot: {x: 0.4133259, y: 0.3507277}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12ca186a03dd75150800000000000000
+      internalID: 5861396641067674657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ATK2(900\xD7600)_5"
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 1200
+        width: 900
+        height: 600
+      alignment: 9
+      pivot: {x: 0.4133259, y: 0.3507277}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fe85694832016e30800000000000000
+      internalID: 4494876343865282293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ATK2(900\xD7600)_6"
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 1200
+        width: 900
+        height: 600
+      alignment: 9
+      pivot: {x: 0.4133259, y: 0.3507277}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce6af5723827b89e0800000000000000
+      internalID: -1618073733482699028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ATK2(900\xD7600)_7"
+      rect:
+        serializedVersion: 2
+        x: 6300
+        y: 1200
+        width: 900
+        height: 600
+      alignment: 9
+      pivot: {x: 0.4133259, y: 0.3507277}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2496ff3a0dfc5180800000000000000
+      internalID: -9125140524494842834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ATK2(900\xD7600)_8"
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 1200
+        width: 900
+        height: 600
+      alignment: 9
+      pivot: {x: 0.4133259, y: 0.3507277}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81cce2477f5b517a0800000000000000
+      internalID: -6407014820453889000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ATK2(900\xD7600)_9"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 600
+        width: 900
+        height: 600
+      alignment: 9
+      pivot: {x: 0.4133259, y: 0.3507277}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a373d29620da37d0800000000000000
+      internalID: -2937806942815161437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ATK2(900\xD7600)_10"
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 600
+        width: 900
+        height: 600
+      alignment: 9
+      pivot: {x: 0.4133259, y: 0.3507277}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf02838e4d9e2a120800000000000000
+      internalID: 2423756650117079292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ATK2(900\xD7600)_11"
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 600
+        width: 900
+        height: 600
+      alignment: 9
+      pivot: {x: 0.4133259, y: 0.3507277}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11fa874558c14c8c0800000000000000
+      internalID: -3980024811715252463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ATK2(900\xD7600)_12"
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 600
+        width: 900
+        height: 600
+      alignment: 9
+      pivot: {x: 0.4133259, y: 0.3507277}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b2a8d0bb20c2dc80800000000000000
+      internalID: -8299359869407288647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ATK2(900\xD7600)_13"
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 600
+        width: 900
+        height: 600
+      alignment: 9
+      pivot: {x: 0.4133259, y: 0.3507277}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9146a1ded86f9d310800000000000000
+      internalID: 1430445446095594521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ATK2(900\xD7600)_14"
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 600
+        width: 900
+        height: 600
+      alignment: 9
+      pivot: {x: 0.4133259, y: 0.3507277}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ddedfd56bdc29e10800000000000000
+      internalID: 2203049350882258391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ATK2(900\xD7600)_15"
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 600
+        width: 900
+        height: 600
+      alignment: 9
+      pivot: {x: 0.4133259, y: 0.3507277}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17bfa4380073e5010800000000000000
+      internalID: 1179440627759905649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ATK2(900\xD7600)_16"
+      rect:
+        serializedVersion: 2
+        x: 6300
+        y: 600
+        width: 900
+        height: 600
+      alignment: 9
+      pivot: {x: 0.4133259, y: 0.3507277}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc148f979920c7b30800000000000000
+      internalID: 4286303803549434316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ATK2(900\xD7600)_17"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 900
+        height: 600
+      alignment: 9
+      pivot: {x: 0.4133259, y: 0.3507277}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41b1237a4aaddfab0800000000000000
+      internalID: -4972578012832589036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ATK2(900\xD7600)_18"
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 0
+        width: 900
+        height: 600
+      alignment: 9
+      pivot: {x: 0.4133259, y: 0.3507277}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5589a8cef4bde85b0800000000000000
+      internalID: -5364108969834276779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ATK2(900\xD7600)_19"
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 0
+        width: 900
+        height: 600
+      alignment: 9
+      pivot: {x: 0.4133259, y: 0.3507277}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e998902f3b440860800000000000000
+      internalID: 7495198414353242595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ATK2(900\xD7600)_20"
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 0
+        width: 900
+        height: 600
+      alignment: 9
+      pivot: {x: 0.4133259, y: 0.3507277}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02e7485c3c8a8d270800000000000000
+      internalID: 8275549874079170080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ATK2(900\xD7600)_21"
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 0
+        width: 900
+        height: 600
+      alignment: 9
+      pivot: {x: 0.4133259, y: 0.3507277}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0779c6083e62a3170800000000000000
+      internalID: 8158876433489106800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ATK2(900\xD7600)_22"
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 0
+        width: 900
+        height: 600
+      alignment: 9
+      pivot: {x: 0.4133259, y: 0.3507277}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22d15d374af5e65d0800000000000000
+      internalID: -3067409136270107358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ATK2(900\xD7600)_23"
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 0
+        width: 900
+        height: 600
+      alignment: 9
+      pivot: {x: 0.4133259, y: 0.3507277}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41e5dabbe337bf540800000000000000
+      internalID: 5042750921045270036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ATK2(900\xD7600)_24"
+      rect:
+        serializedVersion: 2
+        x: 6300
+        y: 0
+        width: 900
+        height: 600
+      alignment: 9
+      pivot: {x: 0.4133259, y: 0.3507277}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2be1e3a4a7ca6710800000000000000
+      internalID: 1687380520341728042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ATK2(900\xD7600)_25"
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 0
+        width: 900
+        height: 600
+      alignment: 9
+      pivot: {x: 0.4133259, y: 0.3507277}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28c54612b760f58e0800000000000000
+      internalID: -1702635008211788670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e2bfe68cc0a81647b15a1ac696d74b3, type: 3}
+  m_Name: sfx_Hitten_damaged_2
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 8300000, guid: 75cf3e2eab42bf44d8002a8ae44eb401, type: 3}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: buffList
+      Entry: 6
+      Data: 
+    - Name: light2DPrefab
+      Entry: 6
+      Data: 
+    - Name: lightEffect
+      Entry: 6
+      Data: 
+    - Name: soundEffectClip
+      Entry: 10
+      Data: 0
+  sfxName: sfx_Hitten_damaged_2
+  isUseAnimacer: 1
+  effectPrefab: {fileID: 0}
+  animationClip: {fileID: 11400000, guid: 5a1ae735315181f41b9b885547d54021, type: 2}
+  sprite: {fileID: 0}
+  spriteLayer: 1
+  isAutoEffectDuration: 1
+  effectDuration: 0.5
+  isCauseDamage: 0
+  delayTime: 0
+  targetLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  isAddLight2D: 0
+  isAddSoundEffect: 1
+  owner: {fileID: 0}

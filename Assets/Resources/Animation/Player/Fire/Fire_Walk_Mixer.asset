@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a472a4806da7f9147a4a5cd7eee170df, type: 3}
+  m_Name: Fire_Walk_Mixer
+  m_EditorClassIdentifier: 
+  _Transition:
+    _FadeDuration: 0
+    _Events:
+      _Names: []
+      _NormalizedTimes: []
+      _Callbacks: []
+    _Speed: 1
+    _States:
+    - {fileID: 11400000, guid: 16cabc5d6392d574f8ad7cb32289578f, type: 2}
+    - {fileID: 11400000, guid: b33a1d0e74077f94c98d3b90a7b47cc3, type: 2}
+    _Speeds: []
+    _SynchroniseChildren: 
+    _Thresholds:
+    - 0
+    - 0.5
+    _DefaultParameter: 0
+    _ExtrapolateSpeed: 1

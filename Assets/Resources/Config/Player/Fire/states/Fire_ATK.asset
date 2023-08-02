@@ -1,0 +1,426 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7827d6a837a0be24daace769d731f46f, type: 3}
+  m_Name: Fire_ATK
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: f3802b688a5b4584496ba6b3577620e3, type: 2}
+    - {fileID: 11400000, guid: 8074ab6dc68724e42ada5e65b35b9ba5, type: 2}
+    - {fileID: 11400000, guid: 419c2ba3f3d86494d898be66c6cb0255, type: 2}
+    - {fileID: 11400000, guid: fba78c574d6e7bf45a6365c725bfe058, type: 2}
+    - {fileID: 11400000, guid: 98c8e9df383f28e4f9f35b64900e98a3, type: 2}
+    - {fileID: 11400000, guid: a5156ccc2face3542956555c23a2e3fe, type: 2}
+    - {fileID: 11400000, guid: 134b3a4c0e57b204f8b1f1f9c5a7fae8, type: 2}
+    - {fileID: 11400000, guid: 233011ef994af804691bcd242e12ad4e, type: 2}
+    - {fileID: 11400000, guid: 3da2b6636300af14b9bdee2633756f8b, type: 2}
+    - {fileID: 11400000, guid: 379ae461b05900442b653d1cc49bbb50, type: 2}
+    - {fileID: 11400000, guid: 990a79286fc375f40b16f0e954d5962e, type: 2}
+    - {fileID: 11400000, guid: c87ca74cadab76047aad2d485c1e4fe6, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: stateConfig
+      Entry: 7
+      Data: 0|Fire_NormalAttack, Assembly-CSharp
+    - Name: triggers
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[FSMBaseTrigger_T, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 7
+      Data: 2|Player_AnimationPlayOverTrigger, Assembly-CSharp
+    - Name: targetState
+      Entry: 1
+      Data: Fire_Idle
+    - Name: isCheckTargetAnimation
+      Entry: 5
+      Data: false
+    - Name: checkAnimationName
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 3|Player_KeyTrigger, Assembly-CSharp
+    - Name: targetState
+      Entry: 1
+      Data: Fire_ATK
+    - Name: key
+      Entry: 3
+      Data: 11
+    - Name: triggerMode
+      Entry: 3
+      Data: 0
+    - Name: longPressThreshold
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 4|PlayerJumpTrigger, Assembly-CSharp
+    - Name: targetState
+      Entry: 1
+      Data: Fire_Jump
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 5|Player_DashTrigger, Assembly-CSharp
+    - Name: targetState
+      Entry: 1
+      Data: Fire_Dash
+    - Name: key
+      Entry: 3
+      Data: 12
+    - Name: triggerMode
+      Entry: 3
+      Data: 0
+    - Name: longPressThreshold
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 6|Player_KeyTrigger, Assembly-CSharp
+    - Name: targetState
+      Entry: 1
+      Data: Fire_Heavy_ATK
+    - Name: key
+      Entry: 3
+      Data: 11
+    - Name: triggerMode
+      Entry: 3
+      Data: 3
+    - Name: longPressThreshold
+      Entry: 4
+      Data: 0.5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: onStateEnterEvents
+      Entry: 6
+      Data: 
+    - Name: defaultAnimation
+      Entry: 6
+      Data: 
+    - Name: defaultAnimationSoundEffect
+      Entry: 6
+      Data: 
+    - Name: name
+      Entry: 1
+      Data: Fire_ATK
+    - Name: CD
+      Entry: 4
+      Data: 0
+    - Name: Timer
+      Entry: 7
+      Data: 7|TimerNode, Assembly-CSharp
+    - Name: reloadCallback
+      Entry: 6
+      Data: 
+    - Name: timeoutCallback
+      Entry: 7
+      Data: 8|TimerManager+TimeoutHandle, Assembly-CSharp
+    - Name: target
+      Entry: 9
+      Data: 0
+    - Name: declaringType
+      Entry: 7
+      Data: 9|System.RuntimeType, mscorlib
+    - Name: 
+      Entry: 1
+      Data: NormalAttack, Assembly-CSharp
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: methodName
+      Entry: 1
+      Data: TimeoutCallBack
+    - Name: delegateType
+      Entry: 7
+      Data: 10|System.RuntimeType, mscorlib
+    - Name: 
+      Entry: 1
+      Data: TimerManager+TimeoutHandle, Assembly-CSharp
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: signature
+      Entry: 7
+      Data: 11|System.Type[], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: tickCallBack
+      Entry: 6
+      Data: 
+    - Name: reloadValue
+      Entry: 4
+      Data: 10
+    - Name: duration
+      Entry: 4
+      Data: 5.60259628
+    - Name: isAutoReload
+      Entry: 5
+      Data: true
+    - Name: isEnable
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: element
+      Entry: 3
+      Data: 1
+    - Name: isEnableChangeState
+      Entry: 5
+      Data: true
+    - Name: ATKIndexResetTime
+      Entry: 4
+      Data: 1
+    - Name: ATKAimation
+      Entry: 7
+      Data: 12|System.Collections.Generic.List`1[[Animancer.ClipTransition, Animancer]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 4
+    - Name: 
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 10
+      Data: 2
+    - Name: 
+      Entry: 10
+      Data: 3
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ATKInternalCD
+      Entry: 7
+      Data: 13|System.Collections.Generic.List`1[[System.Single, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 4
+    - Name: 
+      Entry: 4
+      Data: 0.4
+    - Name: 
+      Entry: 4
+      Data: 0.25
+    - Name: 
+      Entry: 4
+      Data: 0.2
+    - Name: 
+      Entry: 4
+      Data: 0.8
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ATKSfx
+      Entry: 7
+      Data: 14|System.Collections.Generic.List`1[[SfxSO, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 4
+    - Name: 
+      Entry: 10
+      Data: 4
+    - Name: 
+      Entry: 10
+      Data: 5
+    - Name: 
+      Entry: 10
+      Data: 6
+    - Name: 
+      Entry: 10
+      Data: 7
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: isCorrectSfxPos
+      Entry: 5
+      Data: false
+    - Name: sfxPosCorrect
+      Entry: 7
+      Data: 15|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 4
+    - Name: 
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.76
+    - Name: 
+      Entry: 4
+      Data: 0.8
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.88
+    - Name: 
+      Entry: 4
+      Data: 0.99
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: secondATKJumpForce
+      Entry: 4
+      Data: 20
+    - Name: FireEnchantmentATKSfx
+      Entry: 7
+      Data: 16|System.Collections.Generic.List`1[[SfxSO, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 4
+    - Name: 
+      Entry: 10
+      Data: 8
+    - Name: 
+      Entry: 10
+      Data: 9
+    - Name: 
+      Entry: 10
+      Data: 10
+    - Name: 
+      Entry: 10
+      Data: 11
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: inTheAirLinearDrag
+      Entry: 4
+      Data: 1
+    - Name: onTheGroundlinearDrag
+      Entry: 4
+      Data: 15
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: triggerList
+      Entry: 7
+      Data: 17|System.Collections.Generic.List`1[[PlayerFSMBaseTrigger, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 9
+      Data: 2
+    - Name: 
+      Entry: 9
+      Data: 3
+    - Name: 
+      Entry: 9
+      Data: 4
+    - Name: 
+      Entry: 9
+      Data: 5
+    - Name: 
+      Entry: 9
+      Data: 6
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  graph: {fileID: 0}
+  position: {x: 0, y: 0}
+  ports:
+    keys: []
+    values: []
+  StateName: Fire_ATK

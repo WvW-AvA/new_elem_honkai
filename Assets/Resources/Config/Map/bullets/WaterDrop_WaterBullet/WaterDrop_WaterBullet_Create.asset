@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 263c47039d90bd64987d6af8c71e5d61, type: 3}
+  m_Name: WaterDrop_WaterBullet_Create
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: 6022f653656f46f48b2a7044bcf0c4cc, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: stateConfig
+      Entry: 7
+      Data: 0|MapObjectFSMBaseState, Assembly-CSharp
+    - Name: triggers
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[FSMBaseTrigger_T, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 2|Map_TouchLayerTrigger, Assembly-CSharp
+    - Name: targetState
+      Entry: 1
+      Data: WaterDrop_WaterBullet_Break
+    - Name: isDetectTrigger
+      Entry: 5
+      Data: true
+    - Name: isDetectCollison
+      Entry: 5
+      Data: true
+    - Name: isStayDetect
+      Entry: 5
+      Data: true
+    - Name: layer
+      Entry: 7
+      Data: UnityEngine.LayerMask, UnityEngine.CoreModule
+    - Name: 
+      Entry: 3
+      Data: 192
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 3|Map_AnimationPlayOverTrigger, Assembly-CSharp
+    - Name: targetState
+      Entry: 1
+      Data: WaterDrop_WaterBullet_Loop
+    - Name: checkAnimationName
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: onStateEnterEvents
+      Entry: 6
+      Data: 
+    - Name: defaultAnimation
+      Entry: 10
+      Data: 0
+    - Name: defaultAnimationSoundEffect
+      Entry: 6
+      Data: 
+    - Name: faceMode
+      Entry: 3
+      Data: 2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: triggerList
+      Entry: 7
+      Data: 4|System.Collections.Generic.List`1[[MapObjectFSMBaseTrigger, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 9
+      Data: 2
+    - Name: 
+      Entry: 9
+      Data: 3
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  graph: {fileID: 0}
+  position: {x: 0, y: 0}
+  ports:
+    keys: []
+    values: []
+  StateName: WaterDrop_WaterBullet_Create

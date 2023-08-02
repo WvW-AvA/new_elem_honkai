@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed89d9c8a8eb55b439788e0969007380, type: 3}
+  m_Name: FirePlayerFSM
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: 71a3269a5c2bf5d47a1af9bc95069879, type: 2}
+    - {fileID: 11400000, guid: 171a849f85585b94c98d17cd9db4b76c, type: 2}
+    - {fileID: 11400000, guid: 33cda4394a25b364596979dc8b7cdb3f, type: 2}
+    - {fileID: 11400000, guid: bfd4d5810e7e9b24c95511f6f124db7c, type: 2}
+    - {fileID: 11400000, guid: 8189ee1b25370ba4181d7258a4363ac8, type: 2}
+    - {fileID: 11400000, guid: 6b8d796820a6ead4ea78ba57266bffd8, type: 2}
+    - {fileID: 11400000, guid: 519b5a2e89e42a048a9204ac5783d0ce, type: 2}
+    - {fileID: 11400000, guid: 5853b65ba0a1cd24fb0040c774a93e5c, type: 2}
+    - {fileID: 11400000, guid: a506cf1c543877c438aef0f899d455c0, type: 2}
+    - {fileID: 11400000, guid: 9a4903c340e622f409a27905d7b310b2, type: 2}
+    - {fileID: 11400000, guid: 435cd81925f836f4096871eb0a225514, type: 2}
+    - {fileID: 11400000, guid: 599d2d6980dc75c48aa5f1b7c67d69bd, type: 2}
+    - {fileID: 11400000, guid: d04461e138633a34b83672b19091194c, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: stateConfigs
+      Entry: 7
+      Data: 0|System.Collections.Generic.List`1[[Player_State_SO_Config, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 12
+    - Name: 
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 10
+      Data: 2
+    - Name: 
+      Entry: 10
+      Data: 3
+    - Name: 
+      Entry: 10
+      Data: 4
+    - Name: 
+      Entry: 10
+      Data: 5
+    - Name: 
+      Entry: 10
+      Data: 6
+    - Name: 
+      Entry: 10
+      Data: 7
+    - Name: 
+      Entry: 10
+      Data: 8
+    - Name: 
+      Entry: 10
+      Data: 9
+    - Name: 
+      Entry: 10
+      Data: 10
+    - Name: 
+      Entry: 10
+      Data: 11
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: anyStateConfig
+      Entry: 10
+      Data: 12
+  defaultStateName: Fire_Apperance
+  element: 1

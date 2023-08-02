@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed89d9c8a8eb55b439788e0969007380, type: 3}
+  m_Name: TerrainPlayerFSM
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: ac3cd8951d6af2b4aaa275af128dfc27, type: 2}
+    - {fileID: 11400000, guid: 37076840f7c906347be16d6433f7021d, type: 2}
+    - {fileID: 11400000, guid: 41ec445a0ec5bae4e8704487c1da7613, type: 2}
+    - {fileID: 11400000, guid: 9544e5e6c8db2df43880808d72181509, type: 2}
+    - {fileID: 11400000, guid: dec58d1e9ad6bd742ba01252a118ebbe, type: 2}
+    - {fileID: 11400000, guid: f26e05c156db3084e9accc6157cc83ad, type: 2}
+    - {fileID: 11400000, guid: 936927de7777c214386685ab7e7c9d78, type: 2}
+    - {fileID: 11400000, guid: b4c5c77b13d581a4f8c03db440435055, type: 2}
+    - {fileID: 11400000, guid: 64c5ebae0e29050479bc7cf586e4ae75, type: 2}
+    - {fileID: 11400000, guid: 6ae55e67e71d43648ad8e3adbeb234cf, type: 2}
+    - {fileID: 11400000, guid: 288dfe2ce8ed9f14dbfcf32ed34d8e2a, type: 2}
+    - {fileID: 11400000, guid: 085f8ce12fbeb1147b1fe448397321c2, type: 2}
+    - {fileID: 11400000, guid: dae3c0d0df7099c40828b84c6a20aba8, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: stateConfigs
+      Entry: 7
+      Data: 0|System.Collections.Generic.List`1[[Player_State_SO_Config, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 12
+    - Name: 
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 10
+      Data: 2
+    - Name: 
+      Entry: 10
+      Data: 3
+    - Name: 
+      Entry: 10
+      Data: 4
+    - Name: 
+      Entry: 10
+      Data: 5
+    - Name: 
+      Entry: 10
+      Data: 6
+    - Name: 
+      Entry: 10
+      Data: 7
+    - Name: 
+      Entry: 10
+      Data: 8
+    - Name: 
+      Entry: 10
+      Data: 9
+    - Name: 
+      Entry: 10
+      Data: 10
+    - Name: 
+      Entry: 10
+      Data: 11
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: anyStateConfig
+      Entry: 10
+      Data: 12
+  defaultStateName: Terrain_Apperance
+  element: 3

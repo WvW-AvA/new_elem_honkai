@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e351b44326954904386d3d8dae4f4378, type: 3}
+  m_Name: GameManagerConfig
+  m_EditorClassIdentifier: 
+  GlobalParamConfig: {fileID: 11400000, guid: d0503ead6d22e8f418a880f52fd05ee5, type: 2}
+  BeginMenuConfig: {fileID: 11400000, guid: d46ba8b746ebfcf40a08bb469d9bb825, type: 2}
+  BattleModeConfig: {fileID: 11400000, guid: 558712fd0a755f449a8c0c5956a30890, type: 2}
+  DialogModeConfig: {fileID: 11400000, guid: e8102f2c02cace742acff546d88f68e8, type: 2}
+  NormalModeConfig: {fileID: 11400000, guid: e3d12c77de92cd84fa0b4af821c7e674, type: 2}

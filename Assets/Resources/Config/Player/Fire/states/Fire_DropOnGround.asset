@@ -1,0 +1,149 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7827d6a837a0be24daace769d731f46f, type: 3}
+  m_Name: Fire_DropOnGround
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: 6a56e826f2e9af34eb07dd34bcf0f5d3, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: stateConfig
+      Entry: 7
+      Data: 0|DropOnGround, Assembly-CSharp
+    - Name: triggers
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[FSMBaseTrigger_T, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 4
+    - Name: 
+      Entry: 7
+      Data: 2|Player_AnimationPlayOverTrigger, Assembly-CSharp
+    - Name: targetState
+      Entry: 1
+      Data: Fire_Idle
+    - Name: isCheckTargetAnimation
+      Entry: 5
+      Data: false
+    - Name: checkAnimationName
+      Entry: 1
+      Data: Fire_DropOnGround
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 3|Player_KeyTrigger, Assembly-CSharp
+    - Name: targetState
+      Entry: 1
+      Data: Fire_ATK
+    - Name: key
+      Entry: 3
+      Data: 11
+    - Name: triggerMode
+      Entry: 3
+      Data: 0
+    - Name: longPressThreshold
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 4|Player_DashTrigger, Assembly-CSharp
+    - Name: targetState
+      Entry: 1
+      Data: Fire_Dash
+    - Name: key
+      Entry: 3
+      Data: 12
+    - Name: triggerMode
+      Entry: 3
+      Data: 0
+    - Name: longPressThreshold
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 5|PlayerJumpTrigger, Assembly-CSharp
+    - Name: targetState
+      Entry: 1
+      Data: Fire_Jump
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: onStateEnterEvents
+      Entry: 6
+      Data: 
+    - Name: defaultAnimation
+      Entry: 10
+      Data: 0
+    - Name: defaultAnimationSoundEffect
+      Entry: 6
+      Data: 
+    - Name: passByStateName
+      Entry: 1
+      Data: Fire_Idle
+    - Name: speedThresould
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: triggerList
+      Entry: 7
+      Data: 6|System.Collections.Generic.List`1[[PlayerFSMBaseTrigger, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 4
+    - Name: 
+      Entry: 9
+      Data: 2
+    - Name: 
+      Entry: 9
+      Data: 3
+    - Name: 
+      Entry: 9
+      Data: 4
+    - Name: 
+      Entry: 9
+      Data: 5
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  graph: {fileID: 0}
+  position: {x: 0, y: 0}
+  ports:
+    keys: []
+    values: []
+  StateName: Fire_DropOnGround

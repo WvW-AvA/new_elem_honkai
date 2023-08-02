@@ -1,0 +1,468 @@
+fileFormatVersion: 2
+guid: 6535bb01e9ecb5c4bbc06645f7e5e7f6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7080728400515566656
+    second: Boss_cjb_0
+  - first:
+      213: 1478122708229260390
+    second: Boss_cjb_1
+  - first:
+      213: 7609530635902990314
+    second: Boss_cjb_2
+  - first:
+      213: -2922474508798537909
+    second: Boss_cjb_3
+  - first:
+      213: 7938836061219758567
+    second: Boss_cjb_4
+  - first:
+      213: 7789277840642206375
+    second: Boss_cjb_5
+  - first:
+      213: 2769393640710499301
+    second: Boss_cjb_6
+  - first:
+      213: 5295721581406230213
+    second: Boss_cjb_7
+  - first:
+      213: -674772126054627201
+    second: Boss_cjb_8
+  - first:
+      213: 7046377184327321409
+    second: Boss_cjb_9
+  - first:
+      213: -2500049604452073194
+    second: Boss_cjb_10
+  - first:
+      213: 566101071113858303
+    second: Boss_cjb_11
+  - first:
+      213: 5468429549237233055
+    second: Boss_cjb_12
+  - first:
+      213: -2417986337135189704
+    second: Boss_cjb_13
+  - first:
+      213: -3342886315690466455
+    second: Boss_cjb_14
+  - first:
+      213: -1059161120450523771
+    second: Boss_cjb_15
+  - first:
+      213: 3771928852424636999
+    second: Boss_cjb_16
+  - first:
+      213: 2320098442400392164
+    second: Boss_cjb_17
+  - first:
+      213: 7172732270862303125
+    second: Boss_cjb_18
+  - first:
+      213: -414920681745430089
+    second: Boss_cjb_19
+  - first:
+      213: 5811437232069465244
+    second: boss_cjb_body_0
+  - first:
+      213: 7609946199292697169
+    second: boss_cjb_body_1
+  - first:
+      213: 139041082517676103
+    second: boss_cjb_body_2
+  - first:
+      213: -6929493300354637136
+    second: boss_cjb_body_3
+  - first:
+      213: 1051319751021700166
+    second: boss_cjb_body_4
+  - first:
+      213: 4419318929314532716
+    second: boss_cjb_body_5
+  - first:
+      213: 3546722319724641073
+    second: boss_cjb_body_6
+  - first:
+      213: 4365476391979222885
+    second: boss_cjb_body_7
+  - first:
+      213: -8339050068450461440
+    second: boss_cjb_body_8
+  - first:
+      213: 2335754841005353116
+    second: boss_cjb_body_9
+  - first:
+      213: -1628040187081431965
+    second: boss_cjb_body_10
+  - first:
+      213: 3342142368055939971
+    second: boss_cjb_body_11
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: boss_cjb_body_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1600
+        width: 1500
+        height: 800
+      alignment: 9
+      pivot: {x: 0.3371764, y: 0.3083037}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c94dafb4f5f56a050800000000000000
+      internalID: 5811437232069465244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_cjb_body_1
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1600
+        width: 1500
+        height: 800
+      alignment: 9
+      pivot: {x: 0.3371764, y: 0.3083037}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15adca0cfb5fb9960800000000000000
+      internalID: 7609946199292697169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_cjb_body_2
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 1600
+        width: 1500
+        height: 800
+      alignment: 9
+      pivot: {x: 0.3371764, y: 0.3083037}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 740e6acb029fde100800000000000000
+      internalID: 139041082517676103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_cjb_body_3
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 1600
+        width: 1500
+        height: 800
+      alignment: 9
+      pivot: {x: 0.3371764, y: 0.3083037}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b2a9eeae8e75df90800000000000000
+      internalID: -6929493300354637136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_cjb_body_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 800
+        width: 1500
+        height: 800
+      alignment: 9
+      pivot: {x: 0.3371764, y: 0.3083037}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64420015eb9079e00800000000000000
+      internalID: 1051319751021700166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_cjb_body_5
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 800
+        width: 1500
+        height: 800
+      alignment: 9
+      pivot: {x: 0.3371764, y: 0.3083037}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6dc3f2d623945d30800000000000000
+      internalID: 4419318929314532716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_cjb_body_6
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 800
+        width: 1500
+        height: 800
+      alignment: 9
+      pivot: {x: 0.3371764, y: 0.3083037}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13bf220982d783130800000000000000
+      internalID: 3546722319724641073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_cjb_body_7
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 800
+        width: 1500
+        height: 800
+      alignment: 9
+      pivot: {x: 0.3371764, y: 0.3083037}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 567864336a9459c30800000000000000
+      internalID: 4365476391979222885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_cjb_body_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1500
+        height: 800
+      alignment: 9
+      pivot: {x: 0.3371764, y: 0.3083037}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00930d9152eb54c80800000000000000
+      internalID: -8339050068450461440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_cjb_body_9
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 0
+        width: 1500
+        height: 800
+      alignment: 9
+      pivot: {x: 0.3371764, y: 0.3083037}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c98e58c07a44a6020800000000000000
+      internalID: 2335754841005353116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_cjb_body_10
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 0
+        width: 1500
+        height: 800
+      alignment: 9
+      pivot: {x: 0.3371764, y: 0.3083037}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36463f8531a0869e0800000000000000
+      internalID: -1628040187081431965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_cjb_body_11
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 0
+        width: 1500
+        height: 800
+      alignment: 9
+      pivot: {x: 0.3371764, y: 0.3083037}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 383d1ccb6cca16e20800000000000000
+      internalID: 3342142368055939971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

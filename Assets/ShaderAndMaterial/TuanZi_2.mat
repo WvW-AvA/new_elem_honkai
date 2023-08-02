@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: TuanZi_2
+  m_Shader: {fileID: -6465566751694194690, guid: 60d2c9d4852c7be4c8cdb6dc66666299, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_ea6e06bc12f54a45b7c270e9ffae444b:
+        m_Texture: {fileID: 2800000, guid: 0f7aed9851a28384baa93c6b51da8d02, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - BOOLEAN_FF7640EE8FFC40C59B1235EB5C239FDD: 0
+    - Vector1_28ddb796a6de4c55af61badcebf14557: 0
+    - Vector1_2b2a78d2a02c4aa3a4fad594a625d7c4: 32
+    - Vector1_3d373f90fc3e4192bb945bc15c82b106: 1
+    - Vector1_97d71c81c6434944bc899783088403ae: 0
+    - Vector1_d99416b3682c41468162aa8f0481aa92: 0
+    - Vector1_f2565b2a0b6242d489f23f58fe6b9f7f: 2.5
+    - _TimeControl: 1
+    - _isCheck: 0
+    m_Colors:
+    - Vector2_f47e55e6b4ab4f9d93fb71de359a17a4: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []

@@ -1,0 +1,615 @@
+fileFormatVersion: 2
+guid: 0d3bfdbe6596d6b4ebdb7e469614ec3d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2463231051005333852
+    second: Boss_jump_0
+  - first:
+      213: 8508812504115089906
+    second: Boss_jump_1
+  - first:
+      213: -4322501531952663144
+    second: Boss_jump_2
+  - first:
+      213: -8335550537647208495
+    second: Boss_jump_3
+  - first:
+      213: 4453998927239061859
+    second: Boss_jump_4
+  - first:
+      213: -1740295897925960598
+    second: Boss_jump_5
+  - first:
+      213: -3714030065175377596
+    second: Boss_jump_6
+  - first:
+      213: 4827501985805101995
+    second: Boss_jump_7
+  - first:
+      213: -5632200722802151271
+    second: Boss_jump_8
+  - first:
+      213: -5008836119115454818
+    second: Boss_jump_9
+  - first:
+      213: 5381913124429145472
+    second: Boss_jump_10
+  - first:
+      213: -6494367782659846368
+    second: Boss_jump_11
+  - first:
+      213: 5722403291122686876
+    second: Boss_jump_12
+  - first:
+      213: -6983347642573133060
+    second: Boss_jump_13
+  - first:
+      213: -7279373536178562477
+    second: Boss_jump_14
+  - first:
+      213: -4474402591384542914
+    second: Boss_jump_15
+  - first:
+      213: 7798389886047214897
+    second: Boss_jump_16
+  - first:
+      213: -7781037228051368082
+    second: Boss_jump_17
+  - first:
+      213: -3015092345407594928
+    second: Boss_jump_18
+  - first:
+      213: -4954425412596951642
+    second: Boss_jump_19
+  - first:
+      213: 2497087671694765203
+    second: Boss_jump_20
+  - first:
+      213: 1986439192625931939
+    second: boss_jump_body_0
+  - first:
+      213: -6404527956969731050
+    second: boss_jump_body_1
+  - first:
+      213: -9034453519505036256
+    second: boss_jump_body_2
+  - first:
+      213: -3954977498674726238
+    second: boss_jump_body_3
+  - first:
+      213: 8119980152002061957
+    second: boss_jump_body_4
+  - first:
+      213: 1125560739259727655
+    second: boss_jump_body_5
+  - first:
+      213: 1203841334075080137
+    second: boss_jump_body_6
+  - first:
+      213: -2517284161056122016
+    second: boss_jump_body_7
+  - first:
+      213: 6340309843112152273
+    second: boss_jump_body_8
+  - first:
+      213: 514169274007382912
+    second: boss_jump_body_9
+  - first:
+      213: -7322528573848117874
+    second: boss_jump_body_10
+  - first:
+      213: 6608862851753660573
+    second: boss_jump_body_11
+  - first:
+      213: -6631953977877778995
+    second: boss_jump_body_12
+  - first:
+      213: 5922283773741130090
+    second: boss_jump_body_13
+  - first:
+      213: 8182883580844351673
+    second: boss_jump_body_14
+  - first:
+      213: -8629460936959701569
+    second: boss_jump_body_15
+  - first:
+      213: 5401423462456654489
+    second: boss_jump_body_16
+  - first:
+      213: -839461500874977790
+    second: boss_jump_body_17
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: boss_jump_body_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4500
+        width: 2000
+        height: 900
+      alignment: 9
+      pivot: {x: 0.4644639, y: 0.3024105}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a6e16ccbef319b10800000000000000
+      internalID: 1986439192625931939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_jump_body_1
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 4500
+        width: 2000
+        height: 900
+      alignment: 9
+      pivot: {x: 0.4644639, y: 0.3024105}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61cc2ca71cb8e17a0800000000000000
+      internalID: -6404527956969731050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_jump_body_2
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 4500
+        width: 2000
+        height: 900
+      alignment: 9
+      pivot: {x: 0.4644639, y: 0.3024105}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02cef1ef36c2f9280800000000000000
+      internalID: -9034453519505036256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_jump_body_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3600
+        width: 2000
+        height: 900
+      alignment: 9
+      pivot: {x: 0.4644639, y: 0.3024105}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aa74d85be81d19c0800000000000000
+      internalID: -3954977498674726238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_jump_body_4
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 3600
+        width: 2000
+        height: 900
+      alignment: 9
+      pivot: {x: 0.4644639, y: 0.3024105}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5862e4f3de6ffa070800000000000000
+      internalID: 8119980152002061957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_jump_body_5
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 3600
+        width: 2000
+        height: 900
+      alignment: 9
+      pivot: {x: 0.4644639, y: 0.3024105}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72fb3b4678bce9f00800000000000000
+      internalID: 1125560739259727655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_jump_body_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2700
+        width: 2000
+        height: 900
+      alignment: 9
+      pivot: {x: 0.4644639, y: 0.3024105}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cd3a7ba057e4b010800000000000000
+      internalID: 1203841334075080137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_jump_body_7
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 2700
+        width: 2000
+        height: 900
+      alignment: 9
+      pivot: {x: 0.4644639, y: 0.3024105}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06b5885846fc01dd0800000000000000
+      internalID: -2517284161056122016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_jump_body_8
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 2700
+        width: 2000
+        height: 900
+      alignment: 9
+      pivot: {x: 0.4644639, y: 0.3024105}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dccc9cb53e4df750800000000000000
+      internalID: 6340309843112152273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_jump_body_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1800
+        width: 2000
+        height: 900
+      alignment: 9
+      pivot: {x: 0.4644639, y: 0.3024105}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08b61a30b32b22700800000000000000
+      internalID: 514169274007382912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_jump_body_10
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1800
+        width: 2000
+        height: 900
+      alignment: 9
+      pivot: {x: 0.4644639, y: 0.3024105}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8d922afe07216a90800000000000000
+      internalID: -7322528573848117874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_jump_body_11
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 1800
+        width: 2000
+        height: 900
+      alignment: 9
+      pivot: {x: 0.4644639, y: 0.3024105}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d905d089fb567bb50800000000000000
+      internalID: 6608862851753660573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_jump_body_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 900
+        width: 2000
+        height: 900
+      alignment: 9
+      pivot: {x: 0.4644639, y: 0.3024105}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcd2bd5aef096f3a0800000000000000
+      internalID: -6631953977877778995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_jump_body_13
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 900
+        width: 2000
+        height: 900
+      alignment: 9
+      pivot: {x: 0.4644639, y: 0.3024105}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6166e0f6bd203250800000000000000
+      internalID: 5922283773741130090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_jump_body_14
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 900
+        width: 2000
+        height: 900
+      alignment: 9
+      pivot: {x: 0.4644639, y: 0.3024105}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b0aa9213417f8170800000000000000
+      internalID: 8182883580844351673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_jump_body_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 2000
+        height: 900
+      alignment: 9
+      pivot: {x: 0.4644639, y: 0.3024105}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbd4869affefd3880800000000000000
+      internalID: -8629460936959701569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_jump_body_16
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 0
+        width: 2000
+        height: 900
+      alignment: 9
+      pivot: {x: 0.4644639, y: 0.3024105}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99a70396506b5fa40800000000000000
+      internalID: 5401423462456654489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_jump_body_17
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 0
+        width: 2000
+        height: 900
+      alignment: 9
+      pivot: {x: 0.4644639, y: 0.3024105}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20e0bbd6632a954f0800000000000000
+      internalID: -839461500874977790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: FlowSprite
+  m_Shader: {fileID: -6465566751694194690, guid: f2096f78d8a5f0a44b2f52751a74b5e4, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_178dff550e0246e2a35cd81d7040c171:
+        m_Texture: {fileID: 2800000, guid: 3d7925b7f624e974584e39a48fd493a2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AlphaTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - LastTime: 0
+    - MoveScale: 1
+    - Time: 0
+    - Vector1_0f5400568a964b72bdb50f651c5a38ba: 0.5
+    - Vector1_1def055dfcbb49ea9834e828e9af8a49: 0
+    - Vector1_46542f0f611c451fa32468ac53700208: 20
+    - Vector1_550105e8f5fb482091442cd955302552: 0.5
+    - Vector1_7e2f831866d448bca4ab9fd1c35c688e: 0.77
+    - Vector1_961ee7522cf3485e9a36771c38e062a5: 0.2
+    - _EnableExternalAlpha: 0
+    m_Colors:
+    - MoveDir: {r: 0, g: 1, b: 0, a: 0}
+    - MovePosition: {r: 0, g: 0, b: 0, a: 0}
+    - Vector3_1a708cbc9990429fadc87686e25015e5: {r: 0, g: 0.21, b: 0, a: 0}
+    - Vector3_1cff2f92af6c48649c17288c75c8e059: {r: -0.8284, g: 0.5, b: 0, a: 0}
+    - Vector3_4ed4367451f445ec8bc2756ab0423c14: {r: 1, g: 1, b: 1, a: 0}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Flip: {r: 1, g: 1, b: 1, a: 1}
+    - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []

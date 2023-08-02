@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e25c80df4dd6ef740acff732bf6dd457
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - BeginMenuConfig: {fileID: 11400000, guid: d46ba8b746ebfcf40a08bb469d9bb825, type: 2}
+  - BattleModeConfig: {fileID: 11400000, guid: 558712fd0a755f449a8c0c5956a30890, type: 2}
+  - DialogModeConfig: {fileID: 11400000, guid: e8102f2c02cace742acff546d88f68e8, type: 2}
+  - NormalModeConfig: {fileID: 11400000, guid: e3d12c77de92cd84fa0b4af821c7e674, type: 2}
+  executionOrder: -15
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

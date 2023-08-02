@@ -1,0 +1,167 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e2bfe68cc0a81647b15a1ac696d74b3, type: 3}
+  m_Name: sfx_Monster_Fire_Firebone_ATK_config
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: eef2aaf8e625ce044b528e652989a9ae, type: 2}
+    - {fileID: 7152170320138246047, guid: 81e04ba6a75e256428163f2c11f7b84a, type: 3}
+    - {fileID: 11400000, guid: d77abd0327b64e74a8814d45d6d32bde, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: buffList
+      Entry: 7
+      Data: 0|System.Collections.Generic.List`1[[BuffBase, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 1|ElementDamageBuff, Assembly-CSharp
+    - Name: buffType
+      Entry: 3
+      Data: 0
+    - Name: buffName
+      Entry: 1
+      Data: sfx_Monster_Fire_Firebone_ATK_config_ElementDamageBuff
+    - Name: m_duringTime
+      Entry: 4
+      Data: 0
+    - Name: element
+      Entry: 3
+      Data: 1
+    - Name: buffDamageRate
+      Entry: 4
+      Data: 1
+    - Name: damageBaseOn
+      Entry: 3
+      Data: 3
+    - Name: damageValue
+      Entry: 3
+      Data: 10
+    - Name: mode
+      Entry: 3
+      Data: 0
+    - Name: activeOnlyOnArea
+      Entry: 5
+      Data: false
+    - Name: times
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 2|TimeScaleBuff, Assembly-CSharp
+    - Name: buffType
+      Entry: 3
+      Data: 0
+    - Name: buffName
+      Entry: 1
+      Data: sfx_Monster_Fire_Firebone_ATK_config_TimeScaleBuff
+    - Name: m_duringTime
+      Entry: 4
+      Data: 0
+    - Name: scale
+      Entry: 4
+      Data: 0
+    - Name: keepTime
+      Entry: 4
+      Data: 0.05
+    - Name: isFrameCount
+      Entry: 5
+      Data: false
+    - Name: frameCount
+      Entry: 3
+      Data: 2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 3|CameraShakeBuff, Assembly-CSharp
+    - Name: buffType
+      Entry: 3
+      Data: 0
+    - Name: buffName
+      Entry: 1
+      Data: sfx_Monster_Fire_Firebone_ATK_config_CameraShakeBuff
+    - Name: m_duringTime
+      Entry: 4
+      Data: 0
+    - Name: signalAssest
+      Entry: 10
+      Data: 0
+    - Name: customForce
+      Entry: 5
+      Data: false
+    - Name: force
+      Entry: 4
+      Data: 1
+    - Name: customDirection
+      Entry: 5
+      Data: false
+    - Name: direction
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: light2DPrefab
+      Entry: 10
+      Data: 1
+    - Name: lightEffect
+      Entry: 10
+      Data: 2
+    - Name: soundEffectClip
+      Entry: 6
+      Data: 
+  sfxName: sfx_Monster_Fire_Firebone_ATK_config
+  isUseAnimacer: 1
+  effectPrefab: {fileID: 0}
+  animationClip: {fileID: 11400000, guid: 42f1ce6ca69ee7b4c97503425fd06d8e, type: 2}
+  sprite: {fileID: -2571851706945575306, guid: 3483ddc2417ecb0489ace9470cf686bb, type: 3}
+  spriteLayer: 0
+  isAutoEffectDuration: 1
+  effectDuration: 0.5
+  isCauseDamage: 1
+  delayTime: 0
+  damageBoxKeepTime: 0.2
+  targetLayer:
+    serializedVersion: 2
+    m_Bits: 128
+  triggerBoxSize: {x: 10, y: 2}
+  triggerBoxOffset: {x: 0, y: 0}
+  isAddLight2D: 0
+  isAddSoundEffect: 0

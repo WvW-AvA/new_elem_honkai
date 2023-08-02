@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e2bfe68cc0a81647b15a1ac696d74b3, type: 3}
+  m_Name: sfx_Hitten_weak_4
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: buffList
+      Entry: 6
+      Data: 
+    - Name: light2DPrefab
+      Entry: 6
+      Data: 
+    - Name: lightEffect
+      Entry: 6
+      Data: 
+  sfxName: sfx_Hitten_weak_4
+  isSetParentsInOwner: 1
+  isUseAnimacer: 1
+  effectPrefab: {fileID: 0}
+  animationClip: {fileID: 11400000, guid: 6e8a13ceb9313244681b40e6ecce926a, type: 2}
+  sprite: {fileID: 0}
+  spriteLayer: 1
+  isAutoEffectDuration: 1
+  effectDuration: 0.5
+  isCauseDamage: 0
+  delayTime: 0
+  targetLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  isAddLight2D: 0
+  owner: {fileID: 0}

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a472a4806da7f9147a4a5cd7eee170df, type: 3}
+  m_Name: Terrain_Walk_Mixer
+  m_EditorClassIdentifier: 
+  _Transition:
+    _FadeDuration: 0
+    _Events:
+      _Names: []
+      _NormalizedTimes: []
+      _Callbacks: []
+    _Speed: 1
+    _States:
+    - {fileID: 11400000, guid: 38b715a791d6b8745be923f4b9d46a12, type: 2}
+    - {fileID: 11400000, guid: c1c5ffdfe3830ef46b2e0cb8da4e3905, type: 2}
+    _Speeds: []
+    _SynchroniseChildren: 
+    _Thresholds:
+    - 0
+    - 0.5
+    _DefaultParameter: 0
+    _ExtrapolateSpeed: 1

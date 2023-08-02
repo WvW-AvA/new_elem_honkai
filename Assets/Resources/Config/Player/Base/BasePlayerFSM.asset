@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed89d9c8a8eb55b439788e0969007380, type: 3}
+  m_Name: BasePlayerFSM
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: 7ed2a96e63df2f446aa3ff2053666be9, type: 2}
+    - {fileID: 11400000, guid: 733cd88bcd2d60147b110d148c078cb3, type: 2}
+    - {fileID: 11400000, guid: d640868c693689f459a613c072d58364, type: 2}
+    - {fileID: 11400000, guid: 891a462c519ae0d46b49ce9d95450f0c, type: 2}
+    - {fileID: 11400000, guid: 19c2102cbf30c9645b5b449292af3acd, type: 2}
+    - {fileID: 11400000, guid: 0abe0df1e3187194699b51aa1e73c2aa, type: 2}
+    - {fileID: 11400000, guid: 72008ac1cf72676428d93698c69dc9c5, type: 2}
+    - {fileID: 11400000, guid: 445d969eb06b7544796c1675e191b58c, type: 2}
+    - {fileID: 11400000, guid: bd58bdb857bc31b43abac3a6322a5dc8, type: 2}
+    - {fileID: 11400000, guid: 5e1c56449c0241647ae8b49ffa774865, type: 2}
+    - {fileID: 11400000, guid: 8ffcaa12d402f77498f7580f59aae919, type: 2}
+    - {fileID: 11400000, guid: 9d9d6d7eb4efd7a48a782f0fcc39d2f6, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: stateConfigs
+      Entry: 7
+      Data: 0|System.Collections.Generic.List`1[[Player_State_SO_Config, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 11
+    - Name: 
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 10
+      Data: 2
+    - Name: 
+      Entry: 10
+      Data: 3
+    - Name: 
+      Entry: 10
+      Data: 4
+    - Name: 
+      Entry: 10
+      Data: 5
+    - Name: 
+      Entry: 10
+      Data: 6
+    - Name: 
+      Entry: 10
+      Data: 7
+    - Name: 
+      Entry: 10
+      Data: 8
+    - Name: 
+      Entry: 10
+      Data: 9
+    - Name: 
+      Entry: 10
+      Data: 10
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: anyStateConfig
+      Entry: 10
+      Data: 11
+  defaultStateName: Base_Apperance
+  element: 0

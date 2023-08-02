@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7827d6a837a0be24daace769d731f46f, type: 3}
+  m_Name: Fire_AnyState
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: stateConfig
+      Entry: 7
+      Data: 0|Player_AnyState, Assembly-CSharp
+    - Name: triggers
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[FSMBaseTrigger_T, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 2|Player_HPTrigger, Assembly-CSharp
+    - Name: targetState
+      Entry: 1
+      Data: Fire_Die
+    - Name: Percent
+      Entry: 3
+      Data: 0
+    - Name: isLower
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: onStateEnterEvents
+      Entry: 6
+      Data: 
+    - Name: defaultAnimation
+      Entry: 6
+      Data: 
+    - Name: defaultAnimationSoundEffect
+      Entry: 6
+      Data: 
+    - Name: exceptStateList
+      Entry: 7
+      Data: 3|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 1
+      Data: Fire_Die
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: triggerList
+      Entry: 7
+      Data: 4|System.Collections.Generic.List`1[[PlayerFSMBaseTrigger, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 9
+      Data: 2
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  graph: {fileID: 0}
+  position: {x: 0, y: 0}
+  ports:
+    keys: []
+    values: []
+  StateName: Fire_AnyState

@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e2bfe68cc0a81647b15a1ac696d74b3, type: 3}
+  m_Name: sfx_fire_HeavyATK_prepare
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 7152170320138246047, guid: 81e04ba6a75e256428163f2c11f7b84a, type: 3}
+    - {fileID: 11400000, guid: 87dca1b783beb8445a746e342f0a6cb5, type: 2}
+    - {fileID: 8300000, guid: 877f247f2de719947936406ebe961990, type: 3}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: buffList
+      Entry: 6
+      Data: 
+    - Name: light2DPrefab
+      Entry: 10
+      Data: 0
+    - Name: lightEffect
+      Entry: 10
+      Data: 1
+    - Name: soundEffectClip
+      Entry: 10
+      Data: 2
+  sfxName: sfx_fire_HeavyATK_prepare
+  isUseAnimacer: 1
+  effectPrefab: {fileID: 0}
+  animationClip: {fileID: 11400000, guid: 680c5f72f067dd04d99c022b01814f5c, type: 2}
+  sprite: {fileID: 4306774549860621779, guid: 7eafb7abb092a234980ae55f1b09cd60, type: 3}
+  spriteLayer: 0
+  isAutoEffectDuration: 1
+  effectDuration: 0.5833333
+  isCauseDamage: 0
+  delayTime: 0
+  targetLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  isAddLight2D: 1
+  isAddSoundEffect: 1
+  owner: {fileID: 0}
