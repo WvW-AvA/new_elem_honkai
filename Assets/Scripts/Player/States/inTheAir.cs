@@ -57,6 +57,13 @@ public class inTheAir : PlayerFSMBaseState
             playerFSM.animancerCurrentPlaying.NormalizedTime = animAreaDivPos[currentSpeedAreaIndex - 1];
         }
         //Log.ConsoleLog("curr ind {0} animation {1} v {2}", currentSpeedAreaIndex, temp, v);
+
+        if (playerFSM.isJumpReleaseKey == false && InputManager.Keys[EKey.SPACE].isKeyUp)
+        {
+            playerFSM.isJumpReleaseKey = true;
+            float y = Player.instance.rigidbody.velocity.y * Mathf.Clamp(InputManager.Keys[EKey.SPACE].pressDuration / Player.parameter.fullJumpPressTime, 0.5f, 1f);
+            Player.instance.rigidbody.velocity = new Vector2(Player.instance.rigidbody.velocity.x, y);
+        }
     }
 
     public override void FixAct_State(PlayerFSM playerFSM)

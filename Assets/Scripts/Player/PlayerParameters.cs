@@ -16,6 +16,7 @@ public class PlayerParameters : SerializedScriptableObject
     public int maxHP;
     public int baseDamage;
     public float jumpForce;
+    public float fullJumpPressTime = 0.2f;
     public float gravityRate = 0.1f;
     public bool Q_Skill_IsEnable = false;
     public bool E_Skill_IsEnable = false;

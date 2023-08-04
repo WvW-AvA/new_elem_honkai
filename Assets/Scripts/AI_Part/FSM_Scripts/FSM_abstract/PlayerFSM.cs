@@ -23,6 +23,7 @@ public class PlayerFSM : FSMManager
     public float horizontalMaxNegativeSpeed = 0;
     public float verticalMaxPositiveSpeed = 0;
     public float verticalMaxNegativeSpeed = 0;
+    public bool isJumpReleaseKey;
     public bool isAllowDash;
     public sealed override void InitManager()
     {

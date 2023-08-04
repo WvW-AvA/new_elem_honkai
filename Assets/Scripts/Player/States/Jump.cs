@@ -11,13 +11,16 @@ public class Jump : PlayerFSMBaseState
     {
         base.InitState(playerFSM);
         defaultAnimation.Transition.Events.Clear();
-        defaultAnimation.Transition.Events.Add(1f, JumpOnce);
+        defaultAnimation.Transition.Events.Add(0.8f, JumpOnce);
     }
-    public float fullJumpPressTime = 0.2f;
-
+    public override void EnterState(PlayerFSM playerFSM)
+    {
+        base.EnterState(playerFSM);
+        playerFSM.isJumpReleaseKey = false;
+    }
     public void JumpOnce()
     {
-        float jumpForce = Player.parameter.jumpForce * Mathf.Clamp((InputManager.Keys[EKey.SPACE].pressDuration / fullJumpPressTime), 0.5f, 1f);
+        float jumpForce = Player.parameter.jumpForce;
         //Log.Info(LogColor.Dye(LogColor.EColor.magenta, "jump force {0}"), jumpForce);
         Player.instance.rigidbody.velocity += new Vector2(0, jumpForce);
     }
@@ -25,5 +28,16 @@ public class Jump : PlayerFSMBaseState
     {
         base.FixAct_State(playerFSM);
         Player.instance.rigidbody.velocity = new Vector2(Player.parameter.moveSpeed * InputManager.Axises[EAxis.Horizontal].value, Player.instance.rigidbody.velocity.y);
+    }
+
+    public override void Act_State(PlayerFSM playerFSM)
+    {
+        base.Act_State(playerFSM);
+        if (playerFSM.isJumpReleaseKey == false && InputManager.Keys[EKey.SPACE].isKeyUp)
+        {
+            playerFSM.isJumpReleaseKey = true;
+            float y = Player.instance.rigidbody.velocity.y * Mathf.Clamp(InputManager.Keys[EKey.SPACE].pressDuration / Player.parameter.fullJumpPressTime, 0.5f, 1f);
+            Player.instance.rigidbody.velocity = new Vector2(Player.instance.rigidbody.velocity.x, y);
+        }
     }
 }
