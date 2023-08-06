@@ -12,6 +12,13 @@ public enum EAxis
 {
     Vertical, Horizontal
 }
+
+public enum ECommand
+{
+    ATK,
+    E_SKill,
+    Jump
+}
 public class Key
 {
     public bool isEnable = true;
@@ -173,6 +180,48 @@ public class Axis
 
 }
 
+public class Command
+{
+    private ECommand eCommand;
+    private float commandKeepTime;
+    private float timer;
+    private bool isReady;
+    public delegate bool UpdateFunction();
+    private UpdateFunction updateFunction1;
+    public Command(ECommand command, UpdateFunction updateFunction, float commandKeepTime = 0.2f)
+    {
+        this.commandKeepTime = commandKeepTime;
+        this.updateFunction1 = updateFunction;
+        this.eCommand = command;
+    }
+    public void Refresh()
+    {
+        timer = 0;
+        isReady = false;
+    }
+
+    public void Update()
+    {
+        if (updateFunction1())
+        {
+            Log.Info("222222222");
+            isReady = true;
+        }
+        if (isReady)
+            timer += Time.deltaTime;
+        if (timer > commandKeepTime)
+            Refresh();
+    }
+    public bool Check()
+    {
+        if (isReady)
+        {
+            Refresh();
+            return true;
+        }
+        return false;
+    }
+}
 public class InputManager : ManagerBase<InputManager>
 {
     public bool isEnable = true;
@@ -187,6 +236,9 @@ public class InputManager : ManagerBase<InputManager>
 
     private static Dictionary<EKey, KeyCode> keys_keyCode_map = new Dictionary<EKey, KeyCode>();
     private static List<Key> keys_map = new List<Key>();
+
+    private Dictionary<ECommand, Command> commands_map = new Dictionary<ECommand, Command>();
+    public static Dictionary<ECommand, Command> Commands { get { return Instance.commands_map; } }
     override protected void Awake()
     {
         base.Awake();
@@ -215,6 +267,30 @@ public class InputManager : ManagerBase<InputManager>
         Axises.Add(EAxis.Horizontal, new Axis(EAxis.Horizontal));
         Axises.Add(EAxis.Vertical, new Axis(EAxis.Vertical));
 
+        // command init
+        commands_map.Add(ECommand.ATK, new Command(ECommand.ATK, () =>
+        {
+            if (Keys[EKey.J].isKeyDown)
+                return true;
+            else
+                return false;
+        }, GameManager.globalParam.commandKeepTime[ECommand.ATK]));
+
+        commands_map.Add(ECommand.E_SKill, new Command(ECommand.E_SKill, () =>
+        {
+            if (Keys[EKey.E].isKeyDown)
+                return true;
+            else
+                return false;
+        }, GameManager.globalParam.commandKeepTime[ECommand.E_SKill]));
+
+        commands_map.Add(ECommand.Jump, new Command(ECommand.Jump, () =>
+        {
+            if (Keys[EKey.SPACE].isKeyDown)
+                return true;
+            else
+                return false;
+        }, GameManager.globalParam.commandKeepTime[ECommand.Jump]));
     }
 
     void Start()
@@ -227,6 +303,10 @@ public class InputManager : ManagerBase<InputManager>
             k.Update();
         Axises[EAxis.Horizontal].Update();
         Axises[EAxis.Vertical].Update();
+
+        commands_map[ECommand.ATK].Update();
+        commands_map[ECommand.E_SKill].Update();
+        commands_map[ECommand.Jump].Update();
     }
 
     public static void MockKey(EKey key, float time)
@@ -255,10 +335,12 @@ public class InputManager : ManagerBase<InputManager>
         Keys[EKey.Q].isEnable = value;
         Keys[EKey.SPACE].isEnable = value;
     }
+
     public static bool IsAnyKeyDown()
     {
         return Input.anyKeyDown;
     }
+
     public static KeyCode getKeyMap(EKey key)
     {
         return keys_keyCode_map[key];

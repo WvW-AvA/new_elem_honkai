@@ -27,6 +27,8 @@ public class GlobalParamConfig_SO : SerializedScriptableObject
     public float CameraLookForwardMaxDistance = 5f;
 
     public Dictionary<KeyCode, Sprite> keySpriteDictionary;
+
+    public Dictionary<ECommand, float> commandKeepTime;
     public static void GlobalParamConfigInit(GlobalParamConfig_SO config_SO)
     {
         Element.ElementFloatStringColor = config_SO.ElementFloatStringColor;

@@ -8,7 +8,7 @@ public class PlayerJumpTrigger : PlayerFSMBaseTrigger
 {
     public override bool IsTriggerReachInUpdate(PlayerFSM playerFSM)
     {
-        if ((InputManager.Keys[EKey.SPACE].isKeyDown) && playerFSM.currentStateType != "inTheAir")
+        if ((InputManager.Commands[ECommand.Jump].Check()) && playerFSM.currentStateType != "inTheAir")
             return true;
         return false;
     }

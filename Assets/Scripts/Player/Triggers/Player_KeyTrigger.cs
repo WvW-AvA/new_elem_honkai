@@ -33,6 +33,18 @@ public class Player_KeyTrigger : PlayerFSMBaseTrigger
     }
 }
 
+public class Player_CommandTrigger : PlayerFSMBaseTrigger
+{
+    public ECommand command;
+    public override bool IsTriggerReachInUpdate(PlayerFSM playerFSM)
+    {
+        if (InputManager.Commands[command].Check())
+            return true;
+        else
+            return false;
+    }
+}
+
 public class Player_DashTrigger : Player_KeyTrigger
 {
     public override bool IsTriggerReachInUpdate(PlayerFSM playerFSM)

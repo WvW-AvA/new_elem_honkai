@@ -37,49 +37,7 @@ MonoBehaviour:
       Data: 4
     - Name: 
       Entry: 7
-      Data: 2|PlayerJumpTrigger, Assembly-CSharp
-    - Name: targetState
-      Entry: 1
-      Data: Base_Jump
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 3|Player_AnimationPlayOverTrigger, Assembly-CSharp
-    - Name: targetState
-      Entry: 1
-      Data: Base_Idle
-    - Name: isCheckTargetAnimation
-      Entry: 5
-      Data: false
-    - Name: checkAnimationName
-      Entry: 6
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 4|Player_KeyTrigger, Assembly-CSharp
-    - Name: targetState
-      Entry: 1
-      Data: Base_ATK
-    - Name: key
-      Entry: 3
-      Data: 11
-    - Name: triggerMode
-      Entry: 3
-      Data: 0
-    - Name: longPressThreshold
-      Entry: 4
-      Data: 0
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 5|Player_KeyTrigger, Assembly-CSharp
+      Data: 2|Player_KeyTrigger, Assembly-CSharp
     - Name: targetState
       Entry: 1
       Data: Base_Heavy_ATK
@@ -92,6 +50,42 @@ MonoBehaviour:
     - Name: longPressThreshold
       Entry: 4
       Data: 0.5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 3|Player_CommandTrigger, Assembly-CSharp
+    - Name: targetState
+      Entry: 1
+      Data: Base_ATK
+    - Name: command
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 4|PlayerJumpTrigger, Assembly-CSharp
+    - Name: targetState
+      Entry: 1
+      Data: Base_Jump
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 5|Player_AnimationPlayOverTrigger, Assembly-CSharp
+    - Name: targetState
+      Entry: 1
+      Data: Base_Idle
+    - Name: isCheckTargetAnimation
+      Entry: 5
+      Data: false
+    - Name: checkAnimationName
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -172,7 +166,7 @@ MonoBehaviour:
       Data: 5
     - Name: duration
       Entry: 4
-      Data: 3.18285275
+      Data: 1.74176419
     - Name: isAutoReload
       Entry: 5
       Data: true

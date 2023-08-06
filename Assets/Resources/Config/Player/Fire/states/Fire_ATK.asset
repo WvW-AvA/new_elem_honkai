@@ -63,22 +63,34 @@ MonoBehaviour:
       Data: 3|Player_KeyTrigger, Assembly-CSharp
     - Name: targetState
       Entry: 1
-      Data: Fire_ATK
+      Data: Fire_Heavy_ATK
     - Name: key
       Entry: 3
       Data: 11
     - Name: triggerMode
       Entry: 3
-      Data: 0
+      Data: 3
     - Name: longPressThreshold
       Entry: 4
+      Data: 0.5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 4|Player_CommandTrigger, Assembly-CSharp
+    - Name: targetState
+      Entry: 1
+      Data: Fire_ATK
+    - Name: command
+      Entry: 3
       Data: 0
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
-      Data: 4|PlayerJumpTrigger, Assembly-CSharp
+      Data: 5|PlayerJumpTrigger, Assembly-CSharp
     - Name: targetState
       Entry: 1
       Data: Fire_Jump
@@ -87,7 +99,7 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 7
-      Data: 5|Player_DashTrigger, Assembly-CSharp
+      Data: 6|Player_DashTrigger, Assembly-CSharp
     - Name: targetState
       Entry: 1
       Data: Fire_Dash
@@ -100,24 +112,6 @@ MonoBehaviour:
     - Name: longPressThreshold
       Entry: 4
       Data: 1
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 6|Player_KeyTrigger, Assembly-CSharp
-    - Name: targetState
-      Entry: 1
-      Data: Fire_Heavy_ATK
-    - Name: key
-      Entry: 3
-      Data: 11
-    - Name: triggerMode
-      Entry: 3
-      Data: 3
-    - Name: longPressThreshold
-      Entry: 4
-      Data: 0.5
     - Name: 
       Entry: 8
       Data: 
@@ -195,10 +189,10 @@ MonoBehaviour:
       Data: 
     - Name: reloadValue
       Entry: 4
-      Data: 10
+      Data: 1
     - Name: duration
       Entry: 4
-      Data: 5.60259628
+      Data: 0.785841942
     - Name: isAutoReload
       Entry: 5
       Data: true
