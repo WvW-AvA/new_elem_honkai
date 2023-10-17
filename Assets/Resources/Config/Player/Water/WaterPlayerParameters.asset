@@ -26,7 +26,8 @@ MonoBehaviour:
   maxHP: 100
   baseDamage: 0
   jumpForce: 35
+  fullJumpPressTime: 0.2
   gravityRate: 0.25
   Q_Skill_IsEnable: 0
   E_Skill_IsEnable: 0
-  FSMConfig: {fileID: 0}
+  FSMConfig: {fileID: 11400000, guid: 3a08dcdabb2476743bff25c1ee240c30, type: 2}

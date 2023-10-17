@@ -70,7 +70,6 @@ public class NormalAttack : SkillBase
     public override void TimeoutCallBack()
     {
         base.TimeoutCallBack();
-        Log.Info("timer call back");
         currentATKIndex = 0;
     }
     public override void EnterState(PlayerFSM playerFSM)

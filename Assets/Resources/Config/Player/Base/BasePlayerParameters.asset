@@ -26,6 +26,7 @@ MonoBehaviour:
   maxHP: 100
   baseDamage: 5
   jumpForce: 35
+  fullJumpPressTime: 0.2
   gravityRate: 0.25
   Q_Skill_IsEnable: 0
   E_Skill_IsEnable: 0

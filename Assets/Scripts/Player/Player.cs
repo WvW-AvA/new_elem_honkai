@@ -80,7 +80,8 @@ public class Player : Pawn, Iinjured
         curr.Init();
         InputManager.Keys[EKey._1].shortPressEvent.AddListener(() => { ChangeElement(EElement.NONE); });
         InputManager.Keys[EKey._2].shortPressEvent.AddListener(() => { ChangeElement(EElement.FIRE); });
-        InputManager.Keys[EKey._3].shortPressEvent.AddListener(() => { ChangeElement(EElement.TERRA); });
+        InputManager.Keys[EKey._3].shortPressEvent.AddListener(() => { ChangeElement(EElement.WATER); });
+        InputManager.Keys[EKey._4].shortPressEvent.AddListener(() => { ChangeElement(EElement.TERRA); });
     }
 
     private void Start()

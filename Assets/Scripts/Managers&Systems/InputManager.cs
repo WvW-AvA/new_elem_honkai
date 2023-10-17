@@ -204,7 +204,6 @@ public class Command
     {
         if (updateFunction1())
         {
-            Log.Info("222222222");
             isReady = true;
         }
         if (isReady)

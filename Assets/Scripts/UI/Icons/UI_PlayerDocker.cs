@@ -163,9 +163,9 @@ public class UI_PlayerDocker : UI_Icon
         float r = 0;
         if (target == EElement.FIRE)
             r = 0 - currentRotation;
-        else if (target == EElement.TERRA)
-            r = 120 - currentRotation;
         else if (target == EElement.WATER)
+            r = 120 - currentRotation;
+        else if (target == EElement.TERRA)
             r = -120 - currentRotation;
         else if (target == EElement.NONE)
             return 60;
